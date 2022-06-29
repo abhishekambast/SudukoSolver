@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sudoku Solver</title>
+    <script src="javascript_files/helper.js"></script>
+    <script src="javascript_files/classes/Cell.js"></script>
+    <script src="javascript_files/classes/CellElement.js"></script>
+    <script src="javascript_files/classes/CellManager.js"></script>
+    <script src="javascript_files/classes/SudokuValidator.js"></script>
+    <script src="javascript_files/classes/SudokuSolver.js"></script>
+    <script src="javascript_files/classes/Sudoku.js"></script>
+    <script src="javascript_files/classes/SudokuElement.js"></script>
+    <script src="javascript_files/classes/App.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <div id="page-container">
+        <h1>Sudoku Solver</h1>
+        <p id="intro-message">Got stuck in a Sudoku puzzle? No worries!<br>
+            This application can solve it for you!</p>
+        <h2>Instructions</h2>
+        <p>Fill in the cells with the desired numbers [1-9] and press the "Solve!" button</p>
+        <div id="sudoku-container">
+            <div id="sudoku"></div>
+        </div>
+        <div id="button-container">
+            <button id="solve">Solve!</button><br>
+            <button id="clear">Clear</button>
+        </div>
+    </div>
+    <hr class="bottomline" />
+    <div>
+      <h2 class="contact">Want to Conatact me?</h2>
+    </div>
+
+    <footer>
+      <a href="https://www.linkedin.com/in/abhishek-ambast-63a12712b/"><img class="img1" src="https://cdn-icons-png.flaticon.com/512/61/61109.png" alt="LinkedIn"></a>
+      <a href="https://www.instagram.com/abhishekambast/"><img class="img1" src="https://cdn-icons-png.flaticon.com/128/1409/1409946.png" alt="Instagram"></a>
+      <a href="https://twitter.com/AbhishekAmbast4"><img class="img1"src="https://cdn-icons-png.flaticon.com/512/1384/1384065.png" alt="twitter"></a>
+
+    </footer>
+    <script>new App();</script>
+    <!-- Tests -->
+    <!-- <script src="js/tests/test_cases.js"></script>
+    <script src="js/tests/run_tests.js"></script> -->
+
+
+</body>
+</html>
